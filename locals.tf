@@ -1,8 +1,8 @@
 locals {
   project_tags = {    
-    contact = "devops@jjtech.com"
-    application = "payments"
-    project = "jjtech"
+    contact = "devopswithm@gmail.com"
+    application = "affiliates"
+    project = "wanda"
     environment = "${terraform.workspace}"
     creationTime = timestamp()
   }
