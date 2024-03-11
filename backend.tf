@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "vamsi-chunduru-923874"
+    bucket = "wanda-affiliate-resources-01"
     key    = "state/terraform.tfstate"
-    region = "us-east-1"
+    region = "us-west-2"
     workspace_key_prefix  = "env"
   }
 }
